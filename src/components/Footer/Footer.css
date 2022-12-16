@@ -1,0 +1,42 @@
+.foot{
+    height: 160px;
+    width: 100%;
+    position: relative; 
+}
+.foot-img{
+    position: absolute;
+    right: 0;
+    opacity: 0.1;
+}
+.foot-img img{
+    height: 160px;
+}
+.footer{
+    height: 160px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background: rgb(34, 34, 34);
+    margin-top: 100px;
+}
+.social{
+    display: flex;
+    gap: 10px;
+}
+.social i{
+    gap: 10px;cursor: pointer;
+}
+.logo{
+    max-width: 100px;
+    max-height: 100px;
+}
+.logo span{
+    padding: 20px;
+    background: yellow;
+}
+.copyright{
+    font-weight: lighter;
+    color: #fff;
+}
